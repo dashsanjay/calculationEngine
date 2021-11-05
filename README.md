@@ -30,8 +30,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Functionality
-The addition function takes two input numbers and returns the sum //added by ***Sanjay*** .
-The multiplication function takes two floats and returns their product // added by ***Shakil*** .
+The addition function takes two input numbers and returns the sum //added by ***Sanjay*** . </br>
+The multiplication function takes two floats and returns their product // added by ***Shakil*** .</br>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
