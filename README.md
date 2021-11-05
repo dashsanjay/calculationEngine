@@ -36,8 +36,10 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Functionality
-The addition function takes two input numbers and returns the sum //added by ***Sanjay*** . </br>
-The multiplication function takes two floats and returns their product // added by ***Shakil*** .</br>
+The addition function takes two input numbers and returns the sum //added by **Sanjay** . <br/>
+The multiplication function takes two floats and returns their product // added by **Shakil** .<br/>
+The Division function takes two floats and returns their division // added by **Debashish** .<br/>
+The Exponential function takes two int and returns their exponential // added by **Deep** .<br/>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
