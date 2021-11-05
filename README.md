@@ -23,6 +23,12 @@ calculationEngine.substract(10,8)
 
 # returns 10
 calculationEngine.division(80,8)
+
+# returns 80
+calculationEngine.mul(10,8)
+
+# returns 25
+calculationEngine.exponential(5,2)
 ```
 
 ## Contributing
