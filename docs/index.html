@@ -1,46 +1,38 @@
 <!DOCTYPE html>
-<!--This is a Calculation Engine -->
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>My Sample Website</title>
-	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
-	<meta name="description" content="A sample website, nothin fancy">
-      <meta http-equiv="author" content="Francisco Campos Arias">
-      <meta name="keywords" content="html, css, web, design, sample, practice">
-      <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->
-	<link rel="stylesheet" href="style.css">
-	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
-</head>
-<body>
-	<div class="container">
-<!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
-	<header>
-		<div class="header">
-			<h1>Welcome you all From Deep, Deb, Sanjay and Shakil</h1>
-		</div>
-	</header>
-	<!-- END HEADER | the header element in new to HTML5 -->
-		<div class="main">
-			<h2>This is a Calculation Engine repository.Please Collaborate</h2>
-		</div>
-		<div class="feature">
-			<h3>Featured Content 1</h3>
-			<p>Provide basic calculation .</p>
-			<!-- LOREM IPSUM is universally used. Lorem ipsum is dummy text, it does't really mean anything. Its used to fill space or for mockups. -->
-		</div>
-		<div class="feature">
-			<h3>Featured Content 2</h3>
-			<p>Extend to advanced calculation.</p>
-		</div>
-		<div class="feature">
-			<h3>Addition Function</h3>
-			<p>Adds two input numbers and returns sum</p>
-		</div>
-	<footer>
-		All Rigts Reserved.
-	</footer>
-	<!-- END FOOTER | the footer element is also new to HTML5 -->
-	</div>
-</body>
+<h1 id="about">About</h1>
+<p>Welcome you all From Deep, Deb, Sanjay and Shakil</p>
+<h1 id="calculation-engine">Calculation Engine</h1>
+<p>Calculation Engine is a Python library for providing basic Calculation related operations.</p>
+<h2 id="installation">Installation</h2>
+<p>Use the package manager <a href="https://pip.pypa.io/en/stable/">pip</a> to install engine.</p>
+<pre><code class="lang-bash">pip <span class="hljs-keyword">install</span> calculationEngine
+</code></pre>
+<h2 id="usage">Usage</h2>
+<pre><code class="lang-python">import calculationEngine
+
+# returns <span class="hljs-number">3</span>
+calculationEngine.add(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>)
+
+# returns <span class="hljs-number">2</span>
+calculationEngine.sub(<span class="hljs-number">10</span>,<span class="hljs-number">8</span>)
+
+# returns <span class="hljs-number">10</span>
+calculationEngine.div(<span class="hljs-number">80</span>,<span class="hljs-number">8</span>)
+
+# returns <span class="hljs-number">80</span>
+calculationEngine.mul(<span class="hljs-number">10</span>,<span class="hljs-number">8</span>)
+
+# returns <span class="hljs-number">25</span>
+calculationEngine.exponential(<span class="hljs-number">5</span>,<span class="hljs-number">2</span>)
+</code></pre>
+<h2 id="contributing">Contributing</h2>
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.</p>
+<h2 id="functionality">Functionality</h2>
+<p>The addition function takes two input numbers and returns the sum //added by <strong><em>Sanjay</em></strong> . <br />
+The multiplication function takes two floats and returns their product // added by <strong><em>Shakil</em></strong> .<br />
+The Division function takes two floats and returns their division // added by <strong><em>Debashish</em></strong> .<br />
+The Exponential function takes two int and returns their exponential // added by <strong><em>Deep</em></strong> .<br /></p>
+<h2 id="license">License</h2>
+<p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
 </html>
